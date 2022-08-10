@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.text.DecimalFormat;
 public class PTBac2 {
     private int a;
     private int b;
