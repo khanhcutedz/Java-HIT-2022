@@ -1,10 +1,8 @@
-package Buoi5;
+package Buoi5.Bai2;
 
 import java.util.Scanner;
 
 public class Address {
-
-
     private int id;
     private String district;
     private String province;
@@ -21,10 +19,7 @@ public class Address {
     }
 
     public void xuat() {
-//        System.out.println("ID: "+ id);
-//        System.out.println("Huyen: "+ district);
-//        System.out.println("Tinh: "+ province);
-        System.out.printf("%10d %20s %20s", id, district, province);
+        System.out.printf("%-10d %-20s %-20s", id, district, province);
     }
 
     public int getId() {
@@ -51,4 +46,3 @@ public class Address {
         this.district = district;
     }
 }
-

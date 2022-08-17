@@ -1,4 +1,4 @@
-package Buoi5;
+package Buoi5.Bai1;
 
 import java.util.Scanner;
 
@@ -28,10 +28,5 @@ public class PhongMay {
         may.xuat();
         quanLy.xuat();
     }
-    public static void main(String[] args){
-        PhongMay A= new PhongMay();
-        A.nhap();
-        System.out.println("---Phong may vua nhap---");
-        A.xuat();
-    }
+
 }
